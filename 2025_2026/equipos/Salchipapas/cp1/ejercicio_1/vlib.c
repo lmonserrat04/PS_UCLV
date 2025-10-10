@@ -81,7 +81,7 @@ double v_norm(const Vector *v) {
 
 double v_mean(const Vector *v) {
     if (!v || !v->data || v->size == 0) {
-        fprintf(stderr, "Error: Vector no inicializado.\n")
+        fprintf(stderr, "Error: Vector no inicializado.\n");
         return NAN;
     }
     
